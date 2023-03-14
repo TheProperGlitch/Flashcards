@@ -16,14 +16,16 @@ flashcards = [
   ["Which of the following is the highest grossing game of all time? (1: Pac-Man, 2: League of Legends, 3: Dungeon Fighter Online, 4: Minecraft)", 3],
 ]
 question_numbers = [
+0,
 1,
-2,
-3
+2
 ]
 playing = True
 while playing:
     exec(old_score)
     question_num = random.choices(question_numbers, weights = points, k = 1)
+    print(question_num)
+    print(flashcards[question_num])
     question = flashcards[question_num][0]
     correct_answer = flashcards[question_num][1]
     answer = int(input(question_num + ": "))
@@ -32,4 +34,4 @@ while playing:
         points[question_num] -= 1
         total -= 1
         with open(name+".py","w") as file:
-            print("Placeholder")
+            file.write(f"points = [{points}] \ntotal = {total}")
