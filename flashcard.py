@@ -14,10 +14,11 @@ else:
     with open(name+".py","r") as file:
          old_score = file.read()
 flashcards = [
-  ["What is the starting are called in Hollow Knight? \n (1: King's Pass, 2: Dirtmouth, 3: Forgotten Crossroads, 4: Kingdom's Edge)", 1],
-  ["Which of the three dreamers does Quirrel work for? \n(1: Monomon the Teacher 2: Lurien the Watcher, 3: Herrah the Beast 4: Dreaming Jerry)", 2],
-  ["Which of the following is the highest grossing game of all time? \n(1: Pac-Man, 2: League of Legends, 3: Dungeon Fighter Online, 4: Minecraft)", 3],
-  ["What was the first video game console played in space? \n(1:Nentendo Gameboy, 2: Sega Saturn, 3: Sony PlayStation, 4: Atari 2600)", 1]
+  ["What is the starting are called in Hollow Knight? \n(1: King's Pass, 2: Dirtmouth, 3: Forgotten Crossroads, 4: Kingdom's Edge)", 1],
+  ["Which of the three dreamers does Quirrel work for? \n(1: Monomon the Teacher 2: Lurien the Watcher, 3: Herrah the Beast 4: Dreaming Jerry)", 1],
+  ["Which of the following is not a boss found in the forgotten crossroads? \n(1: Vengefly King, 2: Brooding Mawlek, 3: False Knight, 4: Gruz Mother)", 1],
+  ["How much geo drops from the False Knight chest? \n(1: 200, 2: 300, 3: 150, 4: 250)", 1],
+  [""]
 ]
 question_numbers = [
 0,
